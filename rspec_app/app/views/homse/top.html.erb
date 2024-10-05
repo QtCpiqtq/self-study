@@ -1,0 +1,9 @@
+<h1>Homse#top</h1>
+
+<% if customer_signed_in? %>
+  <%= button_to 'ログアウト', destroy_customer_session_path, method: :delete %>
+<% else %>
+  <%= button_to 'ゲストログイン', guest_log_in_path, method: :post %>
+<% end %>
+
+<%= link_to 'イベント', events_index_path %>
