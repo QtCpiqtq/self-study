@@ -1,0 +1,2 @@
+class InvalidAgeError < StandardError
+end
