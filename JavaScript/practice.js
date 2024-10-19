@@ -9,11 +9,15 @@ function total(numbers) {
 let array = [1, 2, 3];
 alert(total(array));
 
+let even = [];
+
 for(let i = 1; i < 11; i++){
   if(i % 2 == 0){
-    alert(i);
+    even.push(i);
   }
 }
+
+alert(e);
 
 function fibonacci(n){
   if(n == 0){
