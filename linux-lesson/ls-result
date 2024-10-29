@@ -1,0 +1,15 @@
+total 12
+-rw-rw-r--  1 ec2-user ec2-user  934 Oct  4 15:59 existing_file.txt
+drwxr-xr-x  4 ec2-user ec2-user   66 Oct 14 14:01 Hamburger-Lesson
+drwxrwxr-x  3 ec2-user ec2-user  151 Oct 24 14:26 JavaScript
+drwxr-xr-x  2 ec2-user ec2-user  134 Oct 11 05:36 jQuery-Lesson
+drwxrwxr-x  2 ec2-user ec2-user   78 Oct 29 21:01 linux-lesson
+drwxr-xr-x  5 ec2-user ec2-user   56 Oct 12 06:49 Pagetop-Lesson
+-rw-rw-r--  1 ec2-user ec2-user  519 Oct  4 15:45 practice.txt
+drwxrwxr-x  4 ec2-user ec2-user   78 Oct 13 08:03 rspec
+drwxrwxr-x 15 ec2-user ec2-user 4096 Oct  1 15:05 rspec_app
+drwxrwxr-x  4 ec2-user ec2-user   29 Oct  7 06:56 ruby_book
+drwxr-xr-x  3 ec2-user ec2-user   69 Oct 12 06:16 SlideShow-Lesson
+-rw-rw-r--  1 ec2-user ec2-user    0 Oct 29 19:55 test-file
+drwxrwxr-x  2 ec2-user ec2-user    6 Oct 29 20:13 test-linux
+-rw-r--r--  1 ec2-user ec2-user    0 Oct 21 21:18 test.rb

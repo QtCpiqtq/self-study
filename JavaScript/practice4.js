@@ -22,4 +22,4 @@ function rotateLeft(array, k) {
 }
 
 let array_for_left = [1, 2, 3, 4, 5, 6, 7, 8 ,9];
-alert(rotateLeft(array_for_left, 2));
+alert(rotateLeft(array_for_left, 1));

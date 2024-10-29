@@ -1,0 +1,39 @@
+def main():
+    initialize_system()
+    
+    user_input = get_user_input("Enter a value: ")
+    
+    if validate_input(user_input):
+        result = process_data(user_input)
+        display_result(result)
+    else:
+        display_error("Invalid input!")
+
+def initialize_system():
+    print("System initializing...")
+    load_config()
+
+def get_user_input(prompt):
+    return input(prompt)
+
+def validate_input(data):
+    return data.isnumeric()
+
+def process_data(value):
+    processed_value = int(value) ** 2
+    return processed_value
+
+def display_result(result):
+    print(f"The result is: {result}")
+
+def display_error(message):
+    print(f"Error: {message}")
+
+def load_config():
+    print("Loading configuration...")
+    # Simulate loading delay
+    sleep(1)
+    print("Configuration loaded.")
+
+if __name__ == "__main__":
+    main()
